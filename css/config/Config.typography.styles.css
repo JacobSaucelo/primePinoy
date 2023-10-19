@@ -78,3 +78,23 @@
 .font-black {
   font-weight: 900;
 }
+
+.font-color-white {
+  color: #fff;
+}
+.font-color-base {
+  color: #282626;
+}
+.font-color-baseLight {
+  color: #414141;
+}
+.font-color-accent {
+  color: #daae22;
+}
+.font-color-neutral {
+  color: #686868;
+}
+
+.bg-color-dark {
+  background-color: #2f2e2e;
+}

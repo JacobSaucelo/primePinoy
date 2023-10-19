@@ -17,6 +17,11 @@
     <link
       type="text/css"
       rel="stylesheet"
+      href="css/modules/Modules.allModule.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
       href="css/config/Config.typography.styles.css"
     />
     <link type="text/css" rel="stylesheet" href="css/global.css" />
@@ -33,7 +38,7 @@
       <section class="essNavbarLimiter">
         <header class="essNavbarLogo">
           <aside>
-            <img src="/assets/assets.logo.small.png" class="essNavLogoImage" />
+            <img src="assets/assets.logo.small.png" class="essNavLogoImage" />
           </aside>
           <aside class="essNavbarLogoHeader text-2xl">
             <div>Prime Investments</div>
@@ -110,7 +115,13 @@
       </section>
     </nav>
 
-    <ul class="sidenav" id="mobile-links"></ul>
+    <ul class="sidenav" id="mobile-links">
+      <li>
+        <a class="subheader"
+          ><i class="material-icons">format_list_bulleted</i> Page Sections</a
+        >
+      </li>
+    </ul>
 
     <div class="fixed-action-btn">
       <a
@@ -123,18 +134,20 @@
       </a>
     </div>
 
-    <!-- <div style="height: 1000px"></div> -->
+    <div id="componentHeroSection"></div>
 
-    <!-- Compiled and minified JavaScript -->
+    <div id="componentDoubleSection1"></div>
+
+    <div id="componentFollowingSection"></div>
+
+    <div style="height: 1000px"></div>
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".sidenav").sidenav({
-          edge: "right",
-        });
-      });
-    </script>
+    <script src="utils/Util.navigation.js" defer></script>
     <script src="utils/Util.sidebar.js" defer></script>
+
+    <script src="utils/Utils.components.js" defer></script>
   </body>
 </html>
