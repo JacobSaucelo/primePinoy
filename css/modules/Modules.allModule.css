@@ -12,6 +12,11 @@
   align-items: flex-start;
   justify-content: center;
 }
+.heroSectionArticle aside {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
 .DoubleSection1 {
   min-height: 100vh;
