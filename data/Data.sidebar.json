@@ -1,0 +1,13 @@
+{
+  "sidebar": [
+    { "title": "Meet Migs", "routeTo": 30 },
+    { "title": "Mentorship", "routeTo": 25 },
+    { "title": "Discovery", "routeTo": 40 },
+    { "title": "Insure your future", "routeTo": 40 },
+    { "title": "Elite Bootcamp", "routeTo": 40 },
+    { "title": "Prime Investments", "routeTo": 40 },
+    { "title": "Podcast", "routeTo": 40 },
+    { "title": "FAQ", "routeTo": 40 },
+    { "title": "Home", "routeTo": 40 }
+  ]
+}
