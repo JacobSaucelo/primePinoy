@@ -210,6 +210,43 @@
   border: 1px solid black;
 }
 
+.PartnersSectionContainer {
+  min-height: 100vh;
+  padding: 1rem;
+}
+.PartnersSectionLimiter {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.PartnersSectionArticle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.BannerSectionContainer {
+  text-align: center;
+  padding: 1rem;
+}
+.BannerSectionLimiter {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.BannerSectionLimiter p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 @media screen and (min-width: 800px) {
   .DoubleSection1Article {
     flex-direction: row;

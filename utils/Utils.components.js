@@ -35,6 +35,7 @@ Promise.all([
     "componentPartnersSection",
     "/modules/Modules.PartnersSection.html"
   ),
+  loadModule("componentBannerSection", "/modules/Modules.BannerSection.html"),
 ])
   .then(() => {
     $(document).ready(function () {
