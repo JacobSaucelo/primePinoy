@@ -89,3 +89,47 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+.hoverCardEffect {
+  transition: 0.5s ease;
+}
+.hoverCardEffect:hover {
+  transform: scale(1.05);
+}
+
+.glowEffect:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 3px #daae22;
+}
+
+.shadowEffect {
+  box-shadow: 0px 5px 8px -2px black;
+}
+
+.vCard {
+  max-width: 300px;
+  background-color: #daae22;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.vCard img {
+  width: 100%;
+  height: 100%;
+}
+.vCard h5 {
+  transition: 0.5s ease;
+  text-align: center;
+}
+.vCard ul li {
+  transition: 0.2s ease;
+  list-style-type: square !important;
+}
+.vCard ul {
+  margin: 1.5rem 2rem;
+}
+.vCard:hover h5,
+.vCard:hover li {
+  color: #fff;
+}

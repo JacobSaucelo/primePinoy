@@ -18,11 +18,22 @@ Promise.all([
   loadModule("componentDoubleSection1", "modules/Modules.DoubleSection1.html"),
   loadModule(
     "componentFollowingSection",
-    "/modules/Modules.FollowingSection.html"
+    "modules/Modules.FollowingSection.html"
   ),
   loadModule(
     "componentCarouselSection1",
-    "/modules/Modules.CarouselSection1.html"
+    "modules/Modules.CarouselSection1.html"
+  ),
+  loadModule("componentSalesSection", "modules/Modules.SalesSections.html"),
+  loadModule("componentDetailsSection1", "modules/Modules.DetailsSection.html"),
+  loadModule(
+    "componentDetailsSection2",
+    "modules/Modules.DetailsSection2.html"
+  ),
+  loadModule("componentStatsSection1", "/modules/Modules.StatsSection1.html"),
+  loadModule(
+    "componentPartnersSection",
+    "/modules/Modules.PartnersSection.html"
   ),
 ])
   .then(() => {
