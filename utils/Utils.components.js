@@ -71,55 +71,23 @@ Promise.all([
   .then(() => {
     $(document).ready(function () {
       $(".carousel").carousel();
-    });
-
-    $(".carousel.carousel-slider").carousel({
-      fullWidth: true,
-    });
-
-    $(document).ready(function () {
+      $(".parallax").parallax();
+      $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+      });
       $(".collapsible").collapsible();
+      $(".scrollspy").scrollSpy();
     });
   })
   .catch((err) => {
     console.log("failed module import", err);
     $(document).ready(function () {
       $(".carousel").carousel();
-    });
-
-    $(".carousel.carousel-slider").carousel({
-      fullWidth: true,
-    });
-
-    $(document).ready(function () {
+      $(".parallax").parallax();
+      $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+      });
       $(".collapsible").collapsible();
+      $(".scrollspy").scrollSpy();
     });
   });
-
-// const loadModule = (moduleId, filePath) => {
-//   fetch(filePath)
-//     .then((response) => response.text())
-//     .then((html) => {
-//       document.getElementById(moduleId).innerHTML = html;
-//     })
-//     .catch((err) => {
-//       console.error("failed to load module", err);
-//     });
-// };
-
-// Promise.all([
-//   loadModule("componentHeroSection", "modules/Modules.HeroSection.html"),
-//   loadModule("componentDoubleSection1", "modules/Modules.DoubleSection1.html"),
-//   loadModule(
-//     "componentFollowingSection",
-//     "/modules/Modules.FollowingSection.html"
-//   ),
-//   loadModule(
-//     "componentCarouselSection1",
-//     "/modules/Modules.CarouselSection1.html"
-//   ),
-// ]).then(() => {
-//   $(document).ready(function () {
-//     $(".carousel").carousel();
-//   });
-// });

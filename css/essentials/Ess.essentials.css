@@ -5,7 +5,6 @@
   box-shadow: 0 0 transparent;
   color: #414141;
 }
-
 .essNavbarLimiter {
   display: flex;
   align-items: center;
@@ -14,7 +13,6 @@
   height: 100%;
   margin: auto;
 }
-
 .essNavbarLogo {
   display: flex;
   justify-content: center;
@@ -26,13 +24,11 @@
   height: 100%;
   max-height: 80px;
 }
-
 .essNavbarLogoHeader {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .essLinksList li a {
   margin: 0.5rem;
   padding: 1rem;
@@ -57,7 +53,72 @@
 .essLinkedInIcon:hover {
   background-color: #0a66c2;
 }
-/* essYtIcon 
-essTiktokIcon
 
-essLinkedInIcon */
+.essFooterContainer {
+  background-color: #000;
+}
+.essFooterContainer p,
+.essFooterContainer li {
+  color: #fff;
+  font-weight: 600;
+}
+.essFooterContainer h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+.essFooterLimiter {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.essFooterLogo {
+  padding: 3rem;
+}
+.essFooterLimiter img {
+  max-width: 140px;
+}
+.essFooterLimiter article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.essFooterLimiter article aside {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.essFooterRights {
+  padding: 1rem;
+  text-align: center;
+  background-color: #daae22;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.essLinksList2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.essLinksList2 li {
+  font-size: 20px;
+}
+.essLinksList2 li a {
+  margin: 0.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+/* .essLinksList2 li a:hover {
+  transition: 0.2s ease;
+} */

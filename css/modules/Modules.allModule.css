@@ -57,6 +57,9 @@
 .FollowingSectionContainer {
   min-height: 100vh;
   padding: 1rem;
+
+  background: url("/assets/background/bg1.webp") center center / cover no-repeat
+    fixed;
 }
 .FollowingSectionLimiter {
   max-width: 900px;
@@ -100,6 +103,8 @@
   min-height: 100vh;
   padding: 1rem;
   background: transparent;
+  background: url("/assets/background/bg2.webp") center center / cover no-repeat
+    fixed;
 }
 .DetailsSectionContainer h1 {
   text-align: center;
@@ -213,6 +218,8 @@
 .PartnersSectionContainer {
   min-height: 100vh;
   padding: 1rem;
+  background: url("/assets/background/bg1.webp") center center / cover no-repeat
+    fixed;
 }
 .PartnersSectionLimiter {
   max-width: 1000px;
@@ -372,6 +379,8 @@
 
 .DetailsSection5Container {
   padding: 2rem;
+  background: url("/assets/background/bg1.webp") center center / cover no-repeat
+    fixed;
 }
 .DetailsSection5Limiter {
   max-width: 1200px;
@@ -503,6 +512,8 @@
 
 .DetailsSection6Container {
   padding: 2rem;
+  background: url("/assets/background/bg2.webp") center center / cover no-repeat
+    fixed;
 }
 .DetailsSection6Limiter {
   max-width: 1200px;
@@ -526,6 +537,7 @@
   border-radius: 10px;
   gap: 1rem;
   padding: 1rem 0;
+  background-color: #fff;
 }
 .DetailsSection6Limiter aside {
   padding: 1rem;
@@ -608,7 +620,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 .BookSectionContainer div {
   display: flex;
@@ -632,7 +644,9 @@
 }
 
 .FaqSectionContainer {
-  min-height: 100vh;
+  background: url("/assets/background/bg3.webp") center center / cover no-repeat
+    fixed;
+  border: 1px solid transparent;
 }
 .FaqSectionLimiter {
   max-width: 800px;
