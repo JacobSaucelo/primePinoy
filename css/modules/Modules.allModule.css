@@ -247,11 +247,448 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+.DetailsSection3Container {
+  min-height: 100vh;
+  padding: 1rem;
+}
+.DetailsSection3Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.DetailsSection3Container article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+.DetailsSection3Limiter article aside:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.DetailsSection3Limiter article aside:nth-child(1) img {
+  border-radius: 10px;
+  height: 60vh;
+  max-height: 400px;
+}
+.DetailsSection3Limiter blockquote {
+  border-color: #daae22;
+  max-width: 300px;
+  text-align: center;
+  font-style: italic;
+}
+.DetailsSection3Limiter article aside:nth-child(2) {
+  max-width: 400px;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #2a2723;
+}
+
+.BannerSection2Container {
+  padding: 2rem;
+}
+.BannerSection2Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.BannerSection2Container article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+.BannerSection2Limiter p:nth-child(1) {
+  text-align: center;
+  color: #bbb;
+}
+.BannerSection2Container h1 {
+  text-align: center;
+  max-width: 700px;
+  padding: 1rem;
+  margin: -2px 0;
+}
+.BannerSection2Description {
+  max-width: 700px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #2a2723;
+}
+
+.DetailsSection4Container {
+  padding: 2rem;
+}
+.DetailsSection4Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+}
+.DetailsSection4Limiter article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+.DetailsSectionConnects {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+.DetailsSectionConnects button {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.DetailsSection5Container {
+  padding: 2rem;
+}
+.DetailsSection5Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+}
+.DetailsSection5Limiter article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+.iCard {
+  padding: 1rem;
+  padding-top: 0rem;
+  max-width: 250px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  transition: 0.5s ease;
+  cursor: context-menu;
+}
+.iCard h5 {
+  font-weight: 600;
+  text-align: center;
+}
+.iCard p {
+  font-weight: 600;
+  text-align: justify;
+}
+.iCard ul {
+  padding-top: 0.5rem;
+  margin: 0 2rem;
+}
+.iCard li {
+  list-style-type: square !important;
+}
+.iCard:hover h5 {
+  color: #daae22;
+}
+
+.NotesSectionContainer {
+  padding: 2rem;
+}
+.NotesSectionLimiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+}
+.NotesSectionLimiter p {
+  text-align: start;
+  width: 100%;
+  max-width: 400px;
+}
+.NotesSectionLimiter aside {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.NotesSectionLimiter button {
+  width: 100%;
+  max-width: 300px;
+}
+.NotesSectionLimiter ul {
+  margin: 0 1.5rem;
+  margin-top: -10px;
+}
+.NotesSectionLimiter li {
+  list-style-type: square !important;
+}
+
+.VideoSectionContainer {
+  min-height: 100vh;
+}
+.VideoSectionBgContainer {
+  position: relative;
+
+  height: auto;
+  width: 100%;
+}
+.VideoSectionBg video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+}
+.VideoSectionLimiter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+.VideoSectionLimiter article {
+  max-width: 500px;
+  text-align: center;
+  background-color: #2a2723;
+  padding: 2rem;
+  padding-top: 0;
+  border-radius: 10px;
+}
+.VideoSectionLimiter p,
+.VideoSectionLimiter span {
+  color: #ccc;
+}
+.VideoSectionLimiter iframe {
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+  max-width: 600px;
+}
+
+.DetailsSection6Container {
+  padding: 2rem;
+}
+.DetailsSection6Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+}
+.DetailsSection6Limiter h1 {
+  text-align: center;
+  max-width: 800px;
+}
+.DetailsSection6Limiter article {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.DetailsSection6Limiter aside {
+  padding: 1rem;
+  max-width: 250px;
+  transition: 0.2s ease;
+  font-weight: 700;
+}
+.DetailsSection6Limiter aside:hover {
+  color: #daae22;
+}
+
+.PodcastSectionContainer {
+  padding: 2rem;
+}
+.PodcastSectionLimiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  gap: 1rem;
+}
+
+.PodcastSection2Container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.PodcastSection2Limiter {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.PodcastSection2Limiter article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 400px;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.PodcastSection2Limiter article aside {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.PodcastSection2Limiter article aside {
+  padding: 1rem;
+  border-radius: 10px;
+}
+.PodcastSection2Limiter article aside li {
+  list-style-type: square;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+.PodcastSection2Limiter article img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+.PodcastSection2Limiter article button {
+  margin-top: 1rem;
+}
+.PodcastSection2Limiter video {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+}
+
+.BookSectionContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.BookSectionContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.BookSectionContainer div:hover {
+  background-color: #daae22;
+}
+.BookSectionContainer p {
+  max-width: 400px;
+}
+.BookSectionContainer button {
+  border: 1px solid black;
+}
+
+.FaqSectionContainer {
+  min-height: 100vh;
+}
+.FaqSectionLimiter {
+  max-width: 800px;
+  margin: auto;
+}
+.FaqSectionLimiter h1 {
+  text-align: center;
+}
+.FaqSectionLimiter ul {
+  border: none;
+  box-shadow: none;
+}
+.FaqSectionLimiter li div {
+  background-color: transparent;
+}
+.FaqSectionLimiter ul li ul li {
+  list-style: square;
+  margin-left: 2rem;
+}
+.collapsible-body p {
+  margin-bottom: 1rem;
+}
+
+.PartnersSection2Limiter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+.PartnersSection2Limiter h1 {
+  color: #000;
+  font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+}
+.PartnersSection2Limiter article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
 @media screen and (min-width: 800px) {
   .DoubleSection1Article {
     flex-direction: row;
   }
   .StatsSectionArticle {
     flex-direction: row;
+  }
+  .PodcastSection2Limiter {
+    flex-direction: row-reverse;
+  }
+  .PodcastSection2Limiter article {
+    margin-left: -60px;
   }
 }

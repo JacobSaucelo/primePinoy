@@ -36,17 +36,63 @@ Promise.all([
     "/modules/Modules.PartnersSection.html"
   ),
   loadModule("componentBannerSection", "/modules/Modules.BannerSection.html"),
+  loadModule("componentReviewsSection", "/modules/Modules.ReviewsSection.html"),
+  loadModule(
+    "componentDetailsSection3",
+    "/modules/Modules.DetailsSection3.html"
+  ),
+  loadModule("componentBannerSection2", "/modules/Modules.BannerSection2.html"),
+  loadModule(
+    "componentDetailsSection4",
+    "/modules/Modules.DetailsSection4.html"
+  ),
+  loadModule(
+    "componentDetailsSection5",
+    "/modules/Modules.DetailsSection5.html"
+  ),
+  loadModule("componentNotesSection", "/modules/Modules.NotesSection.html"),
+  loadModule("componentVideoSection", "/modules/Modules.VideoSection.html"),
+  loadModule(
+    "componentDetailsSection6",
+    "/modules/Modules.DetailsSection6.html"
+  ),
+  loadModule("componentPodcastSection", "/modules/Modules.PodcastSection.html"),
+  loadModule(
+    "componentPodcastSection2",
+    "/modules/Modules.PodcastSection2.html"
+  ),
+  loadModule("componentBookSection", "/modules/Modules.BookSection.html"),
+  loadModule("componentFaqSection", "/modules/Modules.FaqSection.html"),
+  loadModule(
+    "componentPartnersSection2",
+    "/modules/Modules.PartnersSection2.html"
+  ),
 ])
   .then(() => {
     $(document).ready(function () {
       $(".carousel").carousel();
     });
+
+    $(".carousel.carousel-slider").carousel({
+      fullWidth: true,
+    });
+
+    $(document).ready(function () {
+      $(".collapsible").collapsible();
+    });
   })
   .catch((err) => {
     console.log("failed module import", err);
     $(document).ready(function () {
-      console.log("i should run");
       $(".carousel").carousel();
+    });
+
+    $(".carousel.carousel-slider").carousel({
+      fullWidth: true,
+    });
+
+    $(document).ready(function () {
+      $(".collapsible").collapsible();
     });
   });
 
