@@ -831,7 +831,7 @@
 .FaqSectionContainer {
   background: url("../../assets/background/bg3.webp") center center / cover
     no-repeat fixed;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 .FaqSectionLimiter {
   max-width: 800px;
