@@ -1,7 +1,11 @@
 .heroSectionContainer {
   min-height: 100vh;
-  background: url("/assets/background/background.webp") center center / cover
-    no-repeat;
+  background-image: url("/assets/background/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 65%;
+  /* background: url("/assets/background/background.webp") center right / contain
+    no-repeat; */
 }
 .heroSectionArticle {
   display: flex;
