@@ -1,6 +1,6 @@
 .heroSectionContainer {
   min-height: 100vh;
-  background-image: url("assets/background/background.webp");
+  background-image: url("../../assets/background/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 65%;
@@ -62,8 +62,8 @@
   min-height: 100vh;
   padding: 1rem;
 
-  background: url("/assets/background/bg1.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg1.webp") center center / cover
+    no-repeat fixed;
 }
 .FollowingSectionLimiter {
   max-width: 900px;
@@ -125,8 +125,8 @@
 .DetailsSectionContainer {
   padding: 1rem;
   background: transparent;
-  background: url("/assets/background/bg2.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg2.webp") center center / cover
+    no-repeat fixed;
 }
 .DetailsSectionContainer h1 {
   text-align: center;
@@ -240,8 +240,8 @@
 .PartnersSectionContainer {
   min-height: 100vh;
   padding: 1rem;
-  background: url("/assets/background/bg1.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg1.webp") center center / cover
+    no-repeat fixed;
 }
 .PartnersSectionLimiter {
   max-width: 1000px;
@@ -277,8 +277,8 @@
 }
 
 .ReviewsSectionContainer {
-  background: url("/assets/background/bg2.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg2.webp") center center / cover
+    no-repeat fixed;
   min-height: 100vh;
 }
 .ReviewsSectionContainer article {
@@ -425,8 +425,8 @@
 
 .DetailsSection5Container {
   padding: 2rem;
-  background: url("/assets/background/bg1.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg1.webp") center center / cover
+    no-repeat fixed;
 }
 .DetailsSection5Limiter {
   max-width: 1200px;
@@ -514,8 +514,8 @@
 } */
 .TriangleSectionContainer {
   min-height: 100vh;
-  background: url("/assets/background/bg3.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg3.webp") center center / cover
+    no-repeat fixed;
 }
 .TriangleSectionLimiter {
   display: flex;
@@ -697,8 +697,8 @@
 
 .DetailsSection6Container {
   padding: 2rem;
-  background: url("/assets/background/bg2.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg2.webp") center center / cover
+    no-repeat fixed;
 }
 .DetailsSection6Limiter {
   max-width: 1200px;
@@ -829,8 +829,8 @@
 }
 
 .FaqSectionContainer {
-  background: url("/assets/background/bg3.webp") center center / cover no-repeat
-    fixed;
+  background: url("../../assets/background/bg3.webp") center center / cover
+    no-repeat fixed;
   border: 1px solid transparent;
 }
 .FaqSectionLimiter {

@@ -4,7 +4,6 @@
     { "title": "Mentorship", "routeTo": "#scroll8" },
     { "title": "Discovery", "routeTo": "#scroll5" },
     { "title": "Insure your future", "routeTo": "#scroll4" },
-    { "title": "Elite Bootcamp", "routeTo": "#introduction" },
     { "title": "Prime Investments", "routeTo": "#introduction" },
     { "title": "Podcast", "routeTo": "#scroll9" },
     { "title": "FAQ", "routeTo": "#scrollFaq" },
