@@ -39,7 +39,7 @@ html {
   border: 1px solid #282626;
 }
 .heroRounded2:active {
-  background-color: #daae22;
+  background-color: #daae22 !important;
 }
 
 .highlightText {

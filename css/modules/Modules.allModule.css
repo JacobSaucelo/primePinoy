@@ -119,7 +119,6 @@
 }
 
 .DetailsSectionContainer {
-  min-height: 100vh;
   padding: 1rem;
   background: transparent;
   background: url("/assets/background/bg2.webp") center center / cover no-repeat
@@ -273,6 +272,26 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+.ReviewsSectionContainer {
+  background: url("/assets/background/bg2.webp") center center / cover no-repeat
+    fixed;
+  min-height: 100vh;
+}
+.ReviewsSectionContainer article {
+  padding: 2rem;
+  min-height: 700px;
+}
+.ReviewsSectionContainer article aside {
+  width: 100% !important;
+  max-width: 450px !important;
+  height: 450px !important;
+}
+.ReviewsSectionContainer article aside img {
+  border-radius: 10px;
+  user-select: none;
+  image-rendering: optimizeQuality;
+}
+
 .DetailsSection3Container {
   min-height: 100vh;
   padding: 1rem;
@@ -389,7 +408,11 @@
   padding: 2rem;
   text-align: center;
 }
-.DetailsSectionConnects button {
+.DetailsSectionConnects a {
+  width: 100%;
+  max-width: 400px;
+}
+.DetailsSectionConnects a button {
   border: 1px solid black;
   padding: 1rem;
   width: 100%;
@@ -445,6 +468,145 @@
 }
 .iCard:hover h5 {
   color: #daae22;
+}
+
+/* .TriangleSectionLimiter article {
+  max-width: 600px;
+  position: relative;
+  border: 1px solid green;
+}
+.TriangleSectionLimiter article aside:nth-child(1) {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 4rem 1rem 4rem;
+  clip-path: polygon(50% 2%, 0% 100%, 100% 100%);
+  height: 100%;
+  min-height: 450px;
+  width: 100%;
+  position: absolute;
+}
+.TriangleSectionLimiter article aside:nth-child(2) {
+  position: absolute;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 500px;
+  width: 100%;
+}
+.TriangleSectionLimiter article aside div {
+  font-size: calc(1rem + 1vh);
+  font-weight: 700;
+  text-align: center;
+  background-color: #daae22;
+  padding: 0.5rem;
+  border-radius: 10px;
+} */
+.TriangleSectionContainer {
+  min-height: 100vh;
+  background: url("/assets/background/bg3.webp") center center / cover no-repeat
+    fixed;
+}
+.TriangleSectionLimiter {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.TriangleSectionLimiter h1 {
+  max-width: 600px;
+  text-align: center;
+  padding: 1rem;
+}
+.timeline {
+  position: relative;
+  .timeline-event {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .timeline-content {
+      position: relative;
+      width: calc(50% - 50px);
+      border-radius: 10px;
+      text-align: center;
+    }
+    &::before {
+      display: block;
+      content: "";
+      width: 2px;
+      height: calc(50% - 30px);
+      position: absolute;
+      background: #d2d2d2;
+      left: calc(50% - 1px);
+      top: 0;
+    }
+    &::after {
+      display: block;
+      content: "";
+      width: 2px;
+      height: calc(50% - 30px);
+      position: absolute;
+      background: #d2d2d2;
+      left: calc(50% - 1px);
+      top: calc(50% + 30px);
+    }
+    &:first-child::before,
+    &:last-child::after {
+      display: none;
+    }
+    &:nth-child(even) .timeline-content {
+      margin-left: calc(50% + 50px);
+    }
+    &:nth-child(odd) .timeline-content {
+      margin-left: 0;
+    }
+  }
+  .timeline-badge {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #daae22;
+    top: calc(50% - 8px);
+    right: calc(50% - 8px);
+    border-radius: 50%;
+    text-align: center;
+    cursor: default;
+    i {
+      font-size: 25px;
+      line-height: 40px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    .timeline-event {
+      .timeline-content {
+        width: calc(100% - 70px);
+      }
+      &::before,
+      &::after {
+        left: 19px;
+      }
+      &:nth-child(even) .timeline-content,
+      &:nth-child(odd) .timeline-content {
+        margin-left: 70px;
+      }
+    }
+    .timeline-badge {
+      left: 12px;
+    }
+  }
 }
 
 .NotesSectionContainer {

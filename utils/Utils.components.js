@@ -50,6 +50,10 @@ Promise.all([
     "componentDetailsSection5",
     "/modules/Modules.DetailsSection5.html"
   ),
+  loadModule(
+    "componentTriangleSection",
+    "/modules/Modules.TriangleSection.html"
+  ),
   loadModule("componentNotesSection", "/modules/Modules.NotesSection.html"),
   loadModule("componentVideoSection", "/modules/Modules.VideoSection.html"),
   loadModule(
@@ -72,8 +76,8 @@ Promise.all([
     $(document).ready(function () {
       $(".carousel").carousel();
       $(".parallax").parallax();
-      $(".carousel.carousel-slider").carousel({
-        fullWidth: true,
+      $(".carousel.carousel-slider2").carousel({
+        indicators: true,
       });
       $(".collapsible").collapsible();
       $(".scrollspy").scrollSpy({ throttle: 800 });
@@ -84,8 +88,8 @@ Promise.all([
     $(document).ready(function () {
       $(".carousel").carousel();
       $(".parallax").parallax();
-      $(".carousel.carousel-slider").carousel({
-        fullWidth: true,
+      $(".carousel.carousel-slider2").carousel({
+        indicators: true,
       });
       $(".collapsible").collapsible();
       $(".scrollspy").scrollSpy({ throttle: 800 });
