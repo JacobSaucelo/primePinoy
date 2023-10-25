@@ -42,8 +42,7 @@
   box-shadow: 0px 5px 8px -2px black;
 }
 .DoubleSection1Article aside {
-  height: 80vh;
-  max-height: 550px;
+  min-height: 80vh;
   max-width: 450px;
   display: flex;
   background-color: #fff;
