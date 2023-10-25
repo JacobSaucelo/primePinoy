@@ -77,6 +77,25 @@
   max-width: 900px;
 }
 
+.CarouselSection1Container {
+  min-height: 100vh;
+}
+.CarouselSection1Limiter h1 {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 3rem 1rem;
+  color: #fff;
+}
+.CarouselSection1Limiter article {
+  padding: 2rem;
+}
+.CarouselSection1Limiter article aside {
+  width: 100% !important;
+  max-width: 300px !important;
+  height: 400px !important;
+}
+
 .SalesSectionContainer {
   min-height: 100vh;
   padding: 1rem;

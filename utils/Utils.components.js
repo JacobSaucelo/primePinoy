@@ -76,7 +76,7 @@ Promise.all([
         fullWidth: true,
       });
       $(".collapsible").collapsible();
-      $(".scrollspy").scrollSpy();
+      $(".scrollspy").scrollSpy({ throttle: 800 });
     });
   })
   .catch((err) => {
@@ -88,6 +88,6 @@ Promise.all([
         fullWidth: true,
       });
       $(".collapsible").collapsible();
-      $(".scrollspy").scrollSpy();
+      $(".scrollspy").scrollSpy({ throttle: 800 });
     });
   });
