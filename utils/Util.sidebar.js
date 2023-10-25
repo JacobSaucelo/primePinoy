@@ -1,4 +1,4 @@
-fetch("/data/Data.sidebar.json")
+fetch("data/Data.sidebar.json")
   .then((response) => response.json())
   .then((data) => {
     const peopleList = document.getElementById("mobile-links");
