@@ -30,46 +30,46 @@ Promise.all([
     "componentDetailsSection2",
     "modules/Modules.DetailsSection2.html"
   ),
-  loadModule("componentStatsSection1", "/modules/Modules.StatsSection1.html"),
+  loadModule("componentStatsSection1", "modules/Modules.StatsSection1.html"),
   loadModule(
     "componentPartnersSection",
-    "/modules/Modules.PartnersSection.html"
+    "modules/Modules.PartnersSection.html"
   ),
-  loadModule("componentBannerSection", "/modules/Modules.BannerSection.html"),
-  loadModule("componentReviewsSection", "/modules/Modules.ReviewsSection.html"),
+  loadModule("componentBannerSection", "modules/Modules.BannerSection.html"),
+  loadModule("componentReviewsSection", "modules/Modules.ReviewsSection.html"),
   loadModule(
     "componentDetailsSection3",
-    "/modules/Modules.DetailsSection3.html"
+    "modules/Modules.DetailsSection3.html"
   ),
-  loadModule("componentBannerSection2", "/modules/Modules.BannerSection2.html"),
+  loadModule("componentBannerSection2", "modules/Modules.BannerSection2.html"),
   loadModule(
     "componentDetailsSection4",
-    "/modules/Modules.DetailsSection4.html"
+    "modules/Modules.DetailsSection4.html"
   ),
   loadModule(
     "componentDetailsSection5",
-    "/modules/Modules.DetailsSection5.html"
+    "modules/Modules.DetailsSection5.html"
   ),
   loadModule(
     "componentTriangleSection",
-    "/modules/Modules.TriangleSection.html"
+    "modules/Modules.TriangleSection.html"
   ),
-  loadModule("componentNotesSection", "/modules/Modules.NotesSection.html"),
-  loadModule("componentVideoSection", "/modules/Modules.VideoSection.html"),
+  loadModule("componentNotesSection", "modules/Modules.NotesSection.html"),
+  loadModule("componentVideoSection", "modules/Modules.VideoSection.html"),
   loadModule(
     "componentDetailsSection6",
-    "/modules/Modules.DetailsSection6.html"
+    "modules/Modules.DetailsSection6.html"
   ),
-  loadModule("componentPodcastSection", "/modules/Modules.PodcastSection.html"),
+  loadModule("componentPodcastSection", "modules/Modules.PodcastSection.html"),
   loadModule(
     "componentPodcastSection2",
-    "/modules/Modules.PodcastSection2.html"
+    "modules/Modules.PodcastSection2.html"
   ),
-  loadModule("componentBookSection", "/modules/Modules.BookSection.html"),
-  loadModule("componentFaqSection", "/modules/Modules.FaqSection.html"),
+  loadModule("componentBookSection", "modules/Modules.BookSection.html"),
+  loadModule("componentFaqSection", "modules/Modules.FaqSection.html"),
   loadModule(
     "componentPartnersSection2",
-    "/modules/Modules.PartnersSection2.html"
+    "modules/Modules.PartnersSection2.html"
   ),
 ])
   .then(() => {
